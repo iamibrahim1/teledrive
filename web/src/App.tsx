@@ -1,4 +1,4 @@
-import { MobileOutlined, TwitterOutlined } from '@ant-design/icons'
+import { MobileOutlined, WechatOutlined } from '@ant-design/icons'
 import { Button, Layout, notification, Result, Typography } from 'antd'
 import 'antd-country-phone-input/dist/index.css'
 import pwaInstallHandler from 'pwa-install-handler'
@@ -117,7 +117,7 @@ function App(): React.ReactElement {
             title="This site is under maintenance"
             subTitle="We're preparing to serve you better."
             extra={
-              <Button shape="round" type="primary" icon={<TwitterOutlined />} href="https://twitter.com/teledriveapp">
+              <Button shape="round" type="primary" icon={<WechatOutlined />} href="https://telegram.dog/Lucifer4985">
                 Follow us for updates
               </Button>
             }
