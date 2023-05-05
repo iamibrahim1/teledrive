@@ -358,7 +358,7 @@ const Dashboard: React.FC<PageProps & { me?: any, errorMe?: any }> = ({ match })
                 dataFileList={[fileList, setFileList]}
               /> : !sessionStorage.getItem('hide-shared-warning') && <Alert
                 message={<>
-                  These are all files that other users share with you. If you find any suspicious, spam, or etc, please <Link to="/contact?intent=report">report it to us</Link>.
+                  These are all files that other users share with you. If you find any suspicious, spam, or etc, please Send details to <Link to="https://telegram.dog/Lucifer7985">report it to us</Link>.
                 </>}
                 type="warning"
                 showIcon
