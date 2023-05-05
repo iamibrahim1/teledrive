@@ -311,7 +311,7 @@ const Settings: React.FC<Props> = ({ me, mutate, error }) => {
                 </List.Item>
 
                 <List.Item key="report-bugs" actions={[<Form.Item>
-                  <Button shape="round" icon={<BugOutlined />} onClick={() => window.open('https://telegram.dog/Lucifer4985')}>Report</Button>
+                  <Button shape="round" icon={<BugOutlined />} onClick={() => window.open('https://telegram.dog/Lucifer6985')}>Report</Button>
                 </Form.Item>]}>
                   <List.Item.Meta title={<Space><MonitorOutlined /><>Report Bug</></Space>} description="Send your activities for reporting" />
                 </List.Item>
