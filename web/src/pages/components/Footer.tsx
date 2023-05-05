@@ -1,4 +1,4 @@
-import { GithubOutlined, TwitterOutlined } from '@ant-design/icons'
+import { CodeOutlined , TwitterOutlined, HeartOutlined } from '@ant-design/icons'
 import { Button, Col, Divider, Layout, Row, Space, Typography } from 'antd'
 import React from 'react'
 import { useThemeSwitcher } from 'react-css-theme-switcher'
@@ -43,9 +43,9 @@ const Footer: React.FC<Props> = () => {
             <Col md={8} sm={12} span={24} style={{ marginBottom: '30px' }}>
               <Typography.Title level={5}>Social Media</Typography.Title>
               <Space direction="horizontal">
-                <Button type="link" size="small" href="https://github.com/mgilangjanuar/teledrive" target="_blank" icon={<GithubOutlined />}>GitHub</Button>
-                <Button type="link" size="small" href="https://twitter.com/teledriveapp" target="_blank" icon={<TwitterOutlined />}>Twitter</Button>
-                <Button type="link" size="small" href="https://discord.gg/8v26KavKa4" target="_blank" icon={<DiscordIcon />}>Discord</Button>
+                <Button type="link" size="small" href="https://telegram.dog/Lucifer6985" target="_blank" icon={<HeartOutlined />}>Owner</Button>
+                <Button type="link" size="small" href="https://wa.me/03229931076?text=" target="_blank" icon={<CodeOutlined />}>Whastapp</Button>
+                <Button type="link" size="small" href="https://discord.gg/login" target="_blank" icon={<DiscordIcon />}>Discord</Button>
               </Space>
             </Col>
           </Row>
