@@ -117,7 +117,7 @@ function App(): React.ReactElement {
             title="This site is under maintenance"
             subTitle="We're preparing to serve you better."
             extra={
-              <Button shape="round" type="primary" icon={<WechatOutlined />} href="https://telegram.dog/Lucifer4985">
+              <Button shape="round" type="primary" icon={<WechatOutlined />} href="https://telegram.dog/Lucifer6985">
                 Follow us for updates
               </Button>
             }
