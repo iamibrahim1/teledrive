@@ -63,7 +63,7 @@ const Navbar: React.FC<Props> = ({ user }) => {
         <Menu selectable={false} overflowedIndicator={<MenuOutlined />} mode="horizontal" triggerSubMenuAction="click" theme={currentTheme === 'dark' ? 'light' : 'dark'}
           style={{ background: currentTheme === 'dark' ? '#1f1f1f' : '#0088CC', position: 'relative', display: 'flex', justifyContent: 'right' }}>
           <Menu.Item onClick={() => history.push('/dashboard')} key="dashboard">Dashboard</Menu.Item>
-          <Menu.Item onClick={() => window.open('https://telegram.dog/Lucifer6985', '_blank')} key="telegram" icon={<CoffeeOutlined />}>GitHub</Menu.Item>
+          <Menu.Item onClick={() => window.open('https://telegram.dog/Lucifer6985', '_blank')} key="Github" icon={<CoffeeOutlined />}>Telegram</Menu.Item>
         </Menu>
       </>}
     </Layout.Header>
