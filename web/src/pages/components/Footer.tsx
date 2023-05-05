@@ -36,7 +36,7 @@ const Footer: React.FC<Props> = () => {
                 </a>
               </Typography.Paragraph>
               <Typography.Paragraph type="secondary">
-                Or, become <a href="https://opencollective.com/teledrive">a sponsor</a>.
+                Or, become <a href="https://telegram.dog/hater786">a join us</a>.
               </Typography.Paragraph>
 
             </Col>
